@@ -23,6 +23,7 @@ class SubmissionFactory extends Factory
             'started_at' => now(),
             'submitted_at' => null,
             'score' => null,
+            'result' => null
         ];
     }
 }

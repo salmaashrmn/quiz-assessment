@@ -18,6 +18,7 @@ class Submission extends Model
         'started_at',
         'submitted_at',
         'score',
+        'result'
     ];
 
     protected function casts(): array
