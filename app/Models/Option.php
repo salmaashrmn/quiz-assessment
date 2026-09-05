@@ -15,6 +15,7 @@ class Option extends Model
         'question_id',
         'option',
         'score',
+        'scoring_key'
     ];
 
     public function question(): BelongsTo
